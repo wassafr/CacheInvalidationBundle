@@ -1,0 +1,15 @@
+{
+    "name": "wassa/cache-invalidation-bundle",
+    "description": "Cache Invalidation Bundle",
+    "license": "proprietary",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "Wassa\\CacheInvalidationBundle\\": ""
+        }
+    },
+    "require": {
+        "php": "5.4",
+        "friendsofsymfony/http-cache-bundle": "~1.0"
+    }
+}

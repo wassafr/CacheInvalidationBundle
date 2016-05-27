@@ -1,0 +1,6 @@
+services:
+    wassa_cache_invalidation.entity_listener:
+        class: Wassa\CacheInvalidationBundle\EventListener\EntityListener
+        tags:
+            - { name: doctrine.event_subscriber }
+        arguments: [@service_container]
